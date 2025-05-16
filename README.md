@@ -1,4 +1,4 @@
-# quantum-clustering
+# Quantum Clustering
 
 This repository contains materials for a quantum clustering project that explores using quantum computing for data clustering tasks.
 
@@ -23,6 +23,15 @@ The notebook also includes three interactive MCQ quizzes to test your understand
 ## Quick Access
 
 You can also open and run the notebook directly in Google Colab:
+
+***To access the MCQ quizzes, make sure to run both the first cell and the quiz cell***
+
+```python
+!git clone https://github.com/YoushaExT/quantum-clustering.git
+%cd quantum-clustering
+import helpers
+```
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uyQoKSVmi7VMtSdytJTswY28EhNYzJVb?usp=sharing)
 
 ## Requirements
