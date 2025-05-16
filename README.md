@@ -37,3 +37,7 @@ from helpers import create_kmeans_quiz, create_quantum_encoding_quiz, create_qua
 ## Requirements
 
 The project requires Python with libraries including qiskit, matplotlib, numpy, and scikit-learn.
+
+## Video Links
+
+[Milestone 1](https://youtu.be/cfGznpSbntk)
