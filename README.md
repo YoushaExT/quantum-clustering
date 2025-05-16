@@ -40,4 +40,4 @@ The project requires Python with libraries including qiskit, matplotlib, numpy, 
 
 ## Video Links
 
-[Milestone 1](https://youtu.be/cfGznpSbntk)
+[Milestone 1](https://youtu.be/cAsTMfiH5UA)
