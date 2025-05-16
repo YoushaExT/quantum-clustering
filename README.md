@@ -20,6 +20,11 @@ The notebook also includes three interactive MCQ quizzes to test your understand
 - Quantum encoding methods
 - Quantum k-means algorithms
 
+## Quick Access
+
+You can also open and run the notebook directly in Google Colab:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uyQoKSVmi7VMtSdytJTswY28EhNYzJVb?usp=sharing)
+
 ## Requirements
 
 The project requires Python with libraries including qiskit, matplotlib, numpy, and scikit-learn.
