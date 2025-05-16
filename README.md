@@ -29,7 +29,7 @@ You can also open and run the notebook directly in Google Colab:
 ```python
 !git clone https://github.com/YoushaExT/quantum-clustering.git
 %cd quantum-clustering
-import helpers
+from helpers import create_kmeans_quiz, create_quantum_encoding_quiz, create_quantum_kmeans_quiz
 ```
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uyQoKSVmi7VMtSdytJTswY28EhNYzJVb?usp=sharing)
