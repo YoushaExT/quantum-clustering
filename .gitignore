@@ -1,0 +1,7 @@
+venv/
+qiskit20_env/
+qiskit048_env/
+__pycache__/
+*.pyc
+.mypy_cache/
+.DS_Store
