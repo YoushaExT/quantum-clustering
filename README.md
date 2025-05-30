@@ -42,3 +42,8 @@ The project requires Python with libraries including qiskit, matplotlib, numpy, 
 
 [Milestone 1](https://youtu.be/cAsTMfiH5UA)
 [Milestone 2](https://youtu.be/ZcqIW839bR4)
+
+## Progress Reports
+
+[Milestone 1](milestone_1_progress_report.pdf)
+[Milestone 2](milestone_2_progress_report.pdf)
