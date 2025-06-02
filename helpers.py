@@ -490,6 +490,79 @@ def create_quantum_kmeans_quiz():
     return quiz
 
 
+def create_spectral_clustering_quiz():
+    quiz = MCQQuiz(title="Spectral Clustering Quiz")
+
+    quiz.add_single_choice_question(
+        "What is the main advantage of spectral clustering over k-means?",
+        [
+            "It always converges faster",
+            "It can find non-convex clusters",
+            "It requires fewer parameters",
+            "It uses less memory",
+        ],
+        "It can find non-convex clusters",
+        "Spectral clustering can identify non-convex and complex-shaped clusters (like circles) that k-means cannot handle due to its reliance on Euclidean distance.",
+    )
+
+    quiz.add_single_choice_question(
+        "In spectral clustering, what is the Graph Laplacian matrix L defined as?",
+        [
+            "L = W + D",
+            "L = D - W", 
+            "L = W - D",
+            "L = D * W",
+        ],
+        "L = D - W",
+        "The Graph Laplacian is defined as L = D - W, where D is the degree matrix (diagonal) and W is the similarity/adjacency matrix.",
+    )
+
+    quiz.add_single_choice_question(
+        "Which eigenvectors of the Laplacian matrix are most important for spectral clustering?",
+        [
+            "The largest eigenvalues",
+            "The smallest eigenvalues", 
+            "The middle eigenvalues",
+            "All eigenvalues equally",
+        ],
+        "The smallest eigenvalues",
+        "Spectral clustering uses the eigenvectors corresponding to the smallest eigenvalues of the Laplacian matrix to find the clustering structure.",
+    )
+
+    quiz.add_single_choice_question(
+        "What is a key quantum advantage for spectral clustering algorithms?",
+        [
+            "Quantum computers can store more data",
+            "Eigenvalue problems are natural for quantum systems",
+            "Quantum circuits use less energy",
+            "Quantum algorithms never make errors",
+        ],
+        "Eigenvalue problems are natural for quantum systems",
+        "Quantum computers have natural advantages for eigenvalue problems through algorithms like quantum phase estimation, potentially providing exponential speedups for large matrices.",
+    )
+
+    quiz.add_multiple_choice_question(
+        "Which steps are involved in classical spectral clustering? (Select all that apply)",
+        [
+            "Build similarity matrix",
+            "Compute Graph Laplacian",
+            "Find eigenvectors of Laplacian",
+            "Apply k-means in eigenspace",
+            "Use gradient descent",
+        ],
+        [
+            "Build similarity matrix",
+            "Compute Graph Laplacian", 
+            "Find eigenvectors of Laplacian",
+            "Apply k-means in eigenspace",
+        ],
+        "Classical spectral clustering involves: (1) building a similarity matrix, (2) computing the Graph Laplacian, (3) finding eigenvectors of the Laplacian, and (4) applying k-means clustering in the transformed eigenspace. Gradient descent is not typically used.",
+    )
+
+    quiz.display()
+    return quiz
+
+
 import base64
 from IPython.display import Image, display
 
