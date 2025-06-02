@@ -32,7 +32,7 @@ You can also open and run the notebook directly in Google Colab:
 from helpers import create_kmeans_quiz, create_quantum_encoding_quiz, create_quantum_kmeans_quiz
 ```
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Zcwt8FHRCho1q01VCiqrrVHmsezCpRoV?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Zc1r3fXxZlDg1sg-ER3njKQtpYakJDZg?usp=sharing)
 
 ## Requirements
 
